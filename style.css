@@ -1,0 +1,188 @@
+body{
+    font-family: 'Poppins', sans-serif;;
+    margin: 0px auto;
+}
+
+/*first section start*/
+.first-section{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 7rem;
+}
+.first-section .container{
+    width: 100%;
+    margin:0px 130px;
+}
+.first-section-left{
+    margin: 160px 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.first-section .heading .top-heading{
+    margin-bottom: 0rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.first-section .heading .heading-highlight{
+    color: #FF2077;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+.first-section .container .heading-bottom{
+    font-size: 0.8em;
+}
+.first-section .heading-bottom-text{
+    color: #9c9c9c;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.heading-button button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    background: #FF2077 ;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.4rem 2rem;
+    margin-top: 15px;
+    border: 2px solid #FF2077;
+    transition: 0.5s;
+}
+.heading-button button:hover{
+    background-color: #ffffff;
+    color: #FF2077;
+    border: 2px solid #FF2077;
+}
+    
+
+.first-section .half-width .web-img img{
+    width: 720px;
+    height: 720px;
+    margin:-140px -190px;
+}
+
+
+
+
+
+/*second section start*/
+.second-section{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 7rem;
+}
+.second-section .container{
+    width: 100%;
+    margin:0px 0px;
+}
+.second-section-left{
+    margin: 320px 55px;
+}
+
+.second-section .heading .top-heading{
+    margin-bottom: 0rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.second-section .heading .heading-highlight{
+    color: #FF2077;
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+.second-section .container .heading-bottom{
+    font-size: 0.8em;
+}
+.second-section .heading-bottom-text{
+    color: #9c9c9c;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.second-section .half-width .web-img img{
+    width: 720px;
+    height: 720px;
+    margin:0px 170px;
+}
+
+/*second section end*/
+
+/*third section start*/
+.third-section{
+    margin-bottom: 7rem;
+    text-align: center;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+  
+}
+.third-section .third-section-heading h1{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.third-section .box-grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.third-section .latest-work .latest-work-img img{
+    height:230px;
+    width: 300px;
+    align-items: center;
+}
+.third-section .latest-work .work1 img{
+    margin-left: 190px;
+}
+.third-section .latest-work .work2 img{
+    margin-left: 50px;
+}
+.third-section .latest-work .work3 img{
+    margin-right: 320px;
+}
+
+/*third section end*/
+
+/*fourth section start*/
+.fourth-section{
+    text-align: center;
+}
+.fourth-section .client-heading{
+    margin-bottom: 4rem;
+}
+.fourth-section .client-heading h1{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.client-heading-single p{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.heading-single h1{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.client-heading-single{
+    padding: 20px 50px;
+}
+
+
+/*fourth section end*/
+
+
+
+
+
+
+/*footer*/
+#footer{
+    text-align: center;
+    color: rgb(182, 182, 182);
+}
