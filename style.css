@@ -47,7 +47,7 @@ body{
     background: #FF2077 ;
     border-radius: 5px;
     font-size: 1rem;
-    padding: 0.4rem 2rem;
+    padding: 0.3rem 1.2rem;
     margin-top: 15px;
     border: 2px solid #FF2077;
     transition: 0.5s;
@@ -83,7 +83,10 @@ body{
 .second-section-left{
     margin: 320px 55px;
 }
-
+.second-section .second-section-left .heading h1{
+    font-weight: 400;
+    font-size: 2rem;
+}
 .second-section .heading .top-heading{
     margin-bottom: 0rem;
     font-size: 2rem;
@@ -113,7 +116,7 @@ body{
 
 /*third section start*/
 .third-section{
-    margin-bottom: 7rem;
+    margin-bottom: 17rem;
     text-align: center;
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
@@ -132,12 +135,12 @@ body{
     grid-template-columns: 33% 33% 33%;
 }
 .third-section .latest-work .latest-work-img img{
-    height:230px;
-    width: 300px;
+    height:250px;
+    width: 350px;
     align-items: center;
 }
 .third-section .latest-work .work1 img{
-    margin-left: 190px;
+    margin-left: 140px;
 }
 .third-section .latest-work .work2 img{
     margin-left: 50px;
@@ -151,6 +154,7 @@ body{
 /*fourth section start*/
 .fourth-section{
     text-align: center;
+    margin-bottom: 7rem;
 }
 .fourth-section .client-heading{
     margin-bottom: 4rem;
@@ -159,18 +163,42 @@ body{
     font-size: 2.2rem;
     font-weight: 400;
 }
-.client-heading-single p{
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-.heading-single h1{
-    font-size: 1rem;
+.fourth-section .client-heading-name h1{
     font-weight: 500;
-    margin-bottom: 50px;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+}
+.fourth-section .client-heading-name p{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color:gray;
+    margin: -0.7rem 0 3rem 0;
+}
+.fourth-section .heading-single h1{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
 }
 
 .client-heading-single{
     padding: 20px 50px;
+    color:white;
+    background-color: #FF2077;
+    border-radius: 8px;
+    width: 35%;
+    margin: 0px auto;  
+    transition: 0.5s;
+    
+}
+.client-heading-single:hover{
+    background-color: #c80d55;
+}
+.fourth-section a{
+    text-decoration: none;
+}
+.fourth-section .client-heading .client-heading-single p{
+    font-weight: 400;
+   
 }
 
 
@@ -184,5 +212,6 @@ body{
 /*footer*/
 #footer{
     text-align: center;
-    color: rgb(182, 182, 182);
+    color: rgb(149, 149, 149);
+    font-weight: 400;
 }
