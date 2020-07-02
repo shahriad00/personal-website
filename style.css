@@ -153,8 +153,10 @@ body{
 
 /*fourth section start*/
 .fourth-section{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    margin-bottom: 7rem;
 }
 .fourth-section .client-heading{
     margin-bottom: 4rem;
@@ -214,4 +216,5 @@ body{
     text-align: center;
     color: rgb(149, 149, 149);
     font-weight: 400;
+    margin-top: 10rem;
 }
